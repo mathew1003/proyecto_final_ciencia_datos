@@ -1,0 +1,31 @@
+{
+    "mae": 0.12572780218490923,
+    "rmse": 0.2720152667022536,
+    "r2": 0.997825613353329,
+    "n_train": 9583,
+    "n_test": 2396,
+    "num_features": [
+        "Age",
+        "G",
+        "GS",
+        "MP",
+        "FGA",
+        "3PA",
+        "FTA",
+        "TRB",
+        "AST",
+        "STL",
+        "BLK",
+        "TOV",
+        "FG%",
+        "3P%",
+        "FT%",
+        "ShotVolume",
+        "TS%"
+    ],
+    "cat_features": [
+        "Pos",
+        "Tm",
+        "Era"
+    ]
+}

@@ -1,0 +1,17 @@
+Proyecto NBA Player Stats 2 — Predicción de PTS
+==============================================
+
+- Dataset: NBA_Player_Stats_2.csv
+- Unidad de análisis: jugador-temporada.
+- Variable objetivo: PTS (puntos por partido).
+
+Variables numéricas usadas:
+Age, G, GS, MP, FGA, 3PA, FTA, TRB, AST, STL, BLK, TOV, FG%, 3P%, FT%, ShotVolume, TS%
+
+Variables categóricas usadas:
+Pos, Tm, Era
+
+Métricas del modelo (test):
+- MAE  = 0.126
+- RMSE = 0.272
+- R²   = 0.998
