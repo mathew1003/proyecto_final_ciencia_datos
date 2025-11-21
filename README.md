@@ -129,22 +129,4 @@ nba_project/
 - *03_modelos.ipynb* → llama a src.train_model y presenta métricas/figuras.  
 - *04_conclusiones.ipynb* → cierra con R²/RMSE/MAE y mejoras sugeridas.
 
-> Nota de rutas: si ejecuta desde /notebooks, use ROOT = Path.cwd().parent para acceder a la raíz del proyecto.
 
-
-## 6) Problemas típicos y solución
-- ModuleNotFoundError: src... → corra los comandos desde la *raíz* y use python -m ....  
-- PowerShell bloquea el venv → Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned.  
-- Puerto ocupado (Streamlit) → streamlit run dashboard/app.py --server.port 8502.  
-- Línea OLS en scatter → pip install statsmodels o quite trendline="ols" en el código.  
-- Rutas en notebooks → ROOT = Path.cwd().parent y use ROOT/'data'/....).
-
-## Pasos rápidos
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python -m src.data_prep
-python -c "from src.train_model import main; main(k_top=8, ask_input=False)"
-streamlit run dashboard/app.py
-```
