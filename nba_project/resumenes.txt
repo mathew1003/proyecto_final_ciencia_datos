@@ -1,0 +1,2 @@
+Cuadernillos 00–04 llaman funciones de src; src contiene EDA, limpieza, entrenamiento, viz y CLI.
+Artefactos: reports/metrics.json, reports/figuras/*, data/final/predicciones_test.csv, models/best_model.joblib.
